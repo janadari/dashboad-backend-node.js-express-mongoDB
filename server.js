@@ -28,7 +28,7 @@ mongoose.connect(dbConfig.url, {
 
 // define a simple route
 app.get('/', (req, res) => {
-   res.json({"message": "Welcome to ExpressMongoApp application. Created by IT Jugadu"});
+   res.json({"message": "Welcome to ExpressMongoApp application. "});
 });
 
 // Require charts routes
